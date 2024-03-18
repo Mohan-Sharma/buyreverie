@@ -1,0 +1,1 @@
+-- have your scripts that needs to be run at init, will be run only if no schema is already created
