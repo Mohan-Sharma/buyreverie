@@ -130,3 +130,53 @@ dist
 
 .DS_Store
 .idea
+
+/dist
+.env
+/uploads
+/node_modules
+yarn-error.log
+
+!src/**
+
+./tsconfig.tsbuildinfo
+package-lock.json
+yarn.lock
+medusa-db.sql
+build
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# IDEs
+.vscode
+
+# dependencies
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.pem
+
+# vercel
+.vercel
+
+.yarn
+.swc
+dump.rdb
