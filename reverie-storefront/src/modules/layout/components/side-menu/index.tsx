@@ -8,6 +8,8 @@ import { Fragment } from "react"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CountrySelect from "../country-select"
+import Logo from "../../../../../public/assets/images/trademarked-logo.png";
+import Image from "next/image";
 
 const SideMenuItems = {
   Home: "/",
@@ -30,6 +32,7 @@ const SideMenu = ({ regions }: { regions: Region[] | null }) => {
                 <Popover.Button className="relative h-full flex items-center transition-all ease-out duration-200 focus:outline-none hover:text-ui-fg-base">
                   Menu
                 </Popover.Button>
+                <Image src={Logo} alt="brand logo" width={60} height={60} className="rounded-full"/>
               </div>
 
               <Transition
